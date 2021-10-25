@@ -1,7 +1,7 @@
-function time_Converter(num){
-    var hours = Math.floor(num/60);
-    var minutes = num%60;
-    console.log(hours + ":" + minutes);
+function timeConverter(num){
+    let hours = Math.floor(num/60);
+    let minutes = num%60;
+    console.log(hours + " hour(s)" + "," + minutes + " minute(s)");
 }
 
-console.log(time_Converter(71));
+console.log(timeConverter(71));
