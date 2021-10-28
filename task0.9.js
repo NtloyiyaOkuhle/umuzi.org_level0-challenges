@@ -1,8 +1,8 @@
-var vowels = Array(5);
+let vowels = Array(5);
 vowels = ["a","e","i","o","u",];
 
-function print_Vowels(str){
-    var output = "";
+function printVowels(str){
+    let output = "";
     for(let i=0; i<str.length; i++){
         let character = str.charAt(i);
 
@@ -22,4 +22,4 @@ function print_Vowels(str){
     }
     console.log("Vowels: " + output);
 }
-print_Vowels("Bonaaa");
+printVowels("Bonaaa");
