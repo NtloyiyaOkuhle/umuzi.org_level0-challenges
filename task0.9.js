@@ -20,6 +20,6 @@ function printVowels(str){
             
         }
     }
-    console.log("Vowels: " + output);
+    console.log("Vowels: " + output.toLowerCase());
 }
-printVowels("Bonaaa");
+printVowels("BonAa");
