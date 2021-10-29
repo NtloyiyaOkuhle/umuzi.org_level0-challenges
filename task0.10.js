@@ -17,6 +17,6 @@ function checkStrings(str1,str2){
             
         }
     }
-    console.log(output);
+    console.log(output.toLowerCase());
 }
-checkStrings("yonaaa","bonaaa");
+checkStrings("yonaa","bonaaa");
